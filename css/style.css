@@ -1,0 +1,49 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Whitney";
+}
+/* COMMON */
+.container{
+    width:70%;
+    margin:auto;
+    /* test */
+    background-color: blue;
+    height: 500px;
+}
+img{
+    width:100%;
+}
+.col{
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* TEXT AND TITLES */
+
+/* BUTTONS */
+
+/* HEADER */
+.col-right, .col-left{
+    width:20%;
+}
+.col-center{
+    width: 60%;
+}
+/* NAV */
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+/* MAIN */
