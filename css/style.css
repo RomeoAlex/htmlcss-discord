@@ -29,10 +29,21 @@ img{
 /* TEXT AND TITLES */
 
 /* BUTTONS */
+.bottone{
 
+}
 /* HEADER */
+header{
+    height: 80 px;
+}
 .col-right, .col-left{
     width:10%;
+}
+.col-right a{
+    text-align: right;
+    text-decoration: none;
+    color:white;
+    
 }
 .col-center{
     text-align: center;
@@ -43,6 +54,8 @@ nav li{
     vertical-align: middle;
     display: inline-block;
     list-style: none;
+    margin:0 20px;
+    line-height: 80px;
 }
 nav a{
     color: white;
