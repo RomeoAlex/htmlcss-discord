@@ -35,13 +35,18 @@ img{
     margin-bottom: 30px;
 }
 /* BUTTONS */
-.bottone{
+.botn{
     font-size: 20px;
     display: inline-block;
     text-decoration: none;
-    padding: 20px 30px;
     border-radius: 40px;
+}
+.botn-big{
+    padding: 20px 30px;
     margin:0 20px;
+}
+.botn-lit{
+    padding: 10px 15px;
 }
 .btn-bianco{
     background-color: white;
@@ -63,11 +68,11 @@ header{
 .col-center{
     text-align: center;
     width: 80%;
+    font-size: 20px;
 }
 .col-right a{
     text-align: right;
-    text-decoration: none;
-    color:white;
+    line-height: normal;
 }
 
 /* NAV */
@@ -90,10 +95,16 @@ nav a{
    background-image: url("../img/jumbo.png");
    background-size: cover;
    background-repeat: no-repeat;
-   padding: 150px 0;
+   padding: 130px 0;
 }
 .jumbotron-container{
     width:55%;
     margin:auto;
     color:white;
+}
+.col-img{
+    width: 60%;
+}
+.col-testo{
+    width: 40%;
 }
