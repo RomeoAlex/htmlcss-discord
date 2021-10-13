@@ -12,7 +12,6 @@ body{
     width:70%;
     margin:auto;
     /* test */
-    background-color: blue;
     height: 500px;
 }
 img{
@@ -34,25 +33,27 @@ img{
 }
 /* HEADER */
 header{
+    background-color: #3161e0;
     height: 80 px;
     line-height: 80px;
 }
 .col-right, .col-left{
     width:10%;
-    background-color: chartreuse;
+}
+.col-center{
+    text-align: center;
+    width: 80%;
 }
 .col-right a{
     text-align: right;
     text-decoration: none;
     color:white;
+}
 
-}
-.col-center{
-    text-align: center;
-    width: 80%;
-    background-color: coral;
-}
 /* NAV */
+.logo{
+    vertical-align: middle;
+}
 nav li{
     vertical-align: middle;
     display: inline-block;
