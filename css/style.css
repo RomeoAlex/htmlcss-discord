@@ -90,6 +90,11 @@ nav a{
     text-decoration: none;
 }
 /* MAIN */
+.contenuti{
+    padding-top:150px;
+    width:80%;
+    margin:auto;
+}
 .jumbotron{
     text-align: center;
    background-image: url("../img/jumbo.png");
