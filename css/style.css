@@ -90,6 +90,7 @@ nav a{
     text-decoration: none;
 }
 /* MAIN */
+
 .contenuti{
     padding-top:150px;
     width:80%;
@@ -108,8 +109,16 @@ nav a{
     color:white;
 }
 .col-img{
-    width: 60%;
+    width: 65%;
 }
 .col-testo{
-    width: 40%;
+    width: 25%;
+}
+.gutter{
+    height: 200px;
+    width:10%;
+}
+.back-gray{
+    width:100%;
+    background-color: lightgrey;
 }
